@@ -15,15 +15,14 @@ nav {
 
 .Logo-nav {
 
-    height: 6.25rem;
+    height: 9rem;
 }
 
 .conteudo-nav {
     display: flex;
-    justify-content: flex-start;
     align-items: center;
     height: 6.25rem;
-    border-bottom: solid #FFFFFF 1px;
+    border-bottom: solid #FFFFFF 2px;
     gap: 7.5rem;
 
 
@@ -42,6 +41,14 @@ nav {
 .conteudo-direita-nav {
     width: 50%;
     display: flex;
+    justify-content: center;
+    gap: 5rem;
+
+}
+
+.links-nav {
+    display: flex;
+    justify-content: space-between;
     gap: 5rem;
 
     a {
@@ -57,32 +64,41 @@ nav {
 
 }
 
+
 .conteudo-pai {
     display: flex;
+    position: relative;
     justify-content: center;
     align-items: center;
     height: 100%;
+    gap: 3rem;
+    overflow: hidden;
+
+   
 }
 
 .filho-esquerda {
     width: 50%;
     padding-top: 5.625rem;
+    
 
     button {
+       
         background-color: #E71059;
         color: #FFFFFF;
         font-size: 14pt;
         border-radius: 25px;
-        width: 15.625rem;
-        height: 3.44rem;
+        width: 13rem;
+        height: 3.5rem;
         cursor: pointer;
+        top: 10rem;
         transition: 0.5s;
-        
+
         border: 0;
     }
 
     button:hover {
-        color: #000000;
+        color: #E71059;
         background-color: #FFFFFF;
     }
 
@@ -90,9 +106,38 @@ nav {
 
 .filho-direita {
     width: 35%;
-    padding-top: 3.75rem;
-    display: inline-block;
+   
+    display: flex;
+   
+   
 
+}
+
+.background-image-section1 {
+    position: relative;
+    display: flex;
+    width: 40rem;
+    height: 40rem;
+    top: 4.55rem;
+    justify-content: center;
+    align-items: center;
+
+     object-fit: contain;
+  
+
+}
+
+.background-img-mulher {
+    position: absolute;
+    z-index: 1;
+    background-color: #E71059;
+    border-top-left-radius: 42%;
+    border-top-right-radius: 42%;
+    width: 36rem;
+    height: 45rem;
+     top: 0.5rem;
+    
+    
 }
 
 #home {
@@ -114,8 +159,8 @@ nav {
     content: ' ';
     position: absolute;
     bottom: 0;
-    right: 15rem;
-    width: 35%;
+    right: 12rem;
+    width: 30%;
     height: 0.19rem;
     background-color: #E71059;
 
@@ -133,13 +178,18 @@ nav {
 }
 
 #botao-home {
-    padding-top: 3.25;
+    
+    
+
 }
 
 #imagem-section1 {
+    position: absolute;
     height: 55.625rem;
     width: auto;
-
+    top: -10.5rem;
+    right: 5rem;
+    z-index: 100;
 }
 
 .conteinerPecas {
@@ -211,20 +261,24 @@ nav {
     border-radius: 100%;
     display: flex;
     justify-content: start;
-    align-items: start;  
+    align-items: start;
 }
-#mulher-section2{
+
+#mulher-section2 {
     width: 16rem;
     height: 18rem;
 }
-#homem-section2{
+
+#homem-section2 {
     width: 22rem;
-    height:20rem;
+    height: 20rem;
 }
-#calca-section2{
-      width: 16rem;
+
+#calca-section2 {
+    width: 16rem;
     height: 18rem;
 }
+
 .iconeColuna {
     background-color: #F9A4BB;
     border-radius: 100%;
@@ -259,7 +313,7 @@ footer a {
     justify-content: center;
 }
 
-.div-central-logo-footer{
+.div-central-logo-footer {
     display: flex;
     justify-content: center;
 }
@@ -271,7 +325,7 @@ footer a {
     justify-content: center;
 }
 
-.div-vazia-clara{
+.div-vazia-clara {
     border: 0.15rem solid #F9A4BB;
     margin-left: 10rem;
     margin-right: 10rem;
@@ -311,33 +365,33 @@ footer a {
     color: #FFFFFF;
 }
 
-.div-titulo-localidade{
+.div-titulo-localidade {
     display: flex;
     justify-content: center;
 }
 
-.div-vazia-escura{
+.div-vazia-escura {
     border: 0.15rem solid #E71059;
     width: 10%;
     margin-left: 45%;
 }
 
 
-.titulo-localidade{
+.titulo-localidade {
     color: #E71059;
     font-size: 55pt;
     display: flex;
     justify-content: center;
 }
 
-.local-exato{
+.local-exato {
     display: flex;
     justify-content: space-around;
     margin-top: 5rem;
     margin-bottom: 10rem;
 }
 
-.div-img-local{
+.div-img-local {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -347,34 +401,34 @@ footer a {
     height: 28.75rem;
 }
 
-.img-local{
+.img-local {
     width: 50rem;
 }
 
-.div-texto-local{
+.div-texto-local {
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    margin-right:5rem;
+    margin-right: 5rem;
 }
 
-.div-img-maps{
+.div-img-maps {
     width: 5rem;
     height: auto;
 }
 
-.img-maps{
+.img-maps {
     width: 5rem;
     height: auto;
 }
 
-.texto-local{
+.texto-local {
     font-size: 22pt;
     color: #F9A4BB;
 }
 
-.texto-local p{
+.texto-local p {
     display: flex;
     justify-content: center;
 }
