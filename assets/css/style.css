@@ -15,15 +15,14 @@ nav {
 
 .Logo-nav {
 
-    height: 6.25rem;
+    height: 9rem;
 }
 
 .conteudo-nav {
     display: flex;
-    justify-content: flex-start;
     align-items: center;
     height: 6.25rem;
-    border-bottom: solid #FFFFFF 1px;
+    border-bottom: solid #FFFFFF 2px;
     gap: 7.5rem;
 
 
@@ -42,6 +41,14 @@ nav {
 .conteudo-direita-nav {
     width: 50%;
     display: flex;
+    justify-content: center;
+    gap: 5rem;
+
+}
+
+.links-nav {
+    display: flex;
+    justify-content: space-between;
     gap: 5rem;
 
     a {
@@ -57,32 +64,41 @@ nav {
 
 }
 
+
 .conteudo-pai {
     display: flex;
+    position: relative;
     justify-content: center;
     align-items: center;
     height: 100%;
+    gap: 3rem;
+    overflow: hidden;
+
+   
 }
 
 .filho-esquerda {
     width: 50%;
     padding-top: 5.625rem;
+    
 
     button {
+       
         background-color: #E71059;
         color: #FFFFFF;
         font-size: 14pt;
         border-radius: 25px;
-        width: 15.625rem;
-        height: 3.44rem;
+        width: 13rem;
+        height: 3.5rem;
         cursor: pointer;
+        top: 10rem;
         transition: 0.5s;
-        
+
         border: 0;
     }
 
     button:hover {
-        color: #000000;
+        color: #E71059;
         background-color: #FFFFFF;
     }
 
@@ -90,9 +106,38 @@ nav {
 
 .filho-direita {
     width: 35%;
-    padding-top: 3.75rem;
-    display: inline-block;
+   
+    display: flex;
+   
+   
 
+}
+
+.background-image-section1 {
+    position: relative;
+    display: flex;
+    width: 40rem;
+    height: 40rem;
+    top: 4.55rem;
+    justify-content: center;
+    align-items: center;
+
+     object-fit: contain;
+  
+
+}
+
+.background-img-mulher {
+    position: absolute;
+    z-index: 1;
+    background-color: #E71059;
+    border-top-left-radius: 42%;
+    border-top-right-radius: 42%;
+    width: 36rem;
+    height: 45rem;
+     top: 0.5rem;
+    
+    
 }
 
 #home {
@@ -114,8 +159,8 @@ nav {
     content: ' ';
     position: absolute;
     bottom: 0;
-    right: 15rem;
-    width: 35%;
+    right: 12rem;
+    width: 30%;
     height: 0.19rem;
     background-color: #E71059;
 
@@ -132,16 +177,15 @@ nav {
     line-height: 1.56rem;
 }
 
-#botao-home {
-    padding-top: 3.25;
-}
 
 #imagem-section1 {
+    position: absolute;
     height: 55.625rem;
     width: auto;
-
+    top: -10.5rem;
+    right: 5rem;
+    z-index: 100;
 }
-
 .conteinerPecas {
     height: 100dvh;
     display: flex;
