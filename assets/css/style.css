@@ -429,31 +429,29 @@ footer a {
     height: 100dvh;
 }
 .parte1-Sobre-Nos{
-
     display: flex;
     align-items: end;
     justify-content: center;
-    
-}
-.imagem-Sobre{
+    margin-right: 1rem;
     img{
-    height: 45rem;
-    width: 45rem;
+    height: 60rem;
+    width: 60rem;
     }
 }
+
 .parte2-Sobre-Nos{
-    margin-top: 4rem;
+    margin-top: 7rem;
 }
 .parte2-subtitulo{
     color: #E71059;
-    font-size: 1.5rem;
+    font-size: 2rem;
     h2{
         margin: 0;
     }
 }
 .parte2-titulo{
     color: #FFFFFF;
-    font-size: 1.6rem;   
+    font-size: 2.2rem;   
     h1{
         font-weight: 400;
         margin: 0;
@@ -464,7 +462,7 @@ footer a {
 .parte2-txt{
     p {
      color: #E71059;
-    font-size: 1.5rem;
+    font-size: 1.8rem;
     }
     
 }
@@ -474,7 +472,7 @@ footer a {
     justify-content: start;
     margin-top: 0.5rem;
     img{
-        height: 12rem;
+        height: 14rem;
         width: auto;
     }
 }
