@@ -433,19 +433,25 @@ footer a {
     align-items: end;
     justify-content: center;
     margin-right: 1rem;
-    background-image: url(../img/background-img-section1.png);
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: 47rem;
+    margin-left: 8.5rem;
+    margin-right: 5rem;
     img{
     height: 60rem;
-    width: 60rem;
+    width: auto;
     }
+}
+.Imagem-De-Fundo-Secao-3{
+    background-image: url(../img/fundo-section3.svg);
+    background-position:  center  bottom;
+    background-repeat: no-repeat;
+    background-size: 36rem;
 }
 
 .parte2-Sobre-Nos{
     margin-top: 7rem;
+    width: 50%;
 }
+
 .parte2-subtitulo{
     color: #E71059;
     font-size: 2rem;
