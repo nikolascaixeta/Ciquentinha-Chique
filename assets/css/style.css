@@ -52,10 +52,12 @@ nav {
     gap: 5rem;
 
     a {
-        color: #FFFFFF;
-        font-size: 20pt;
-        text-decoration: none;
-        transition: color 0.5s;
+       position: relative;
+    color: #FFFFFF;
+    font-size: 20pt;
+    text-decoration: none;
+    transition: color 0.3s;
+    padding-bottom: 0.5rem;
     }
 
     a:hover {
@@ -64,6 +66,30 @@ nav {
 
 }
 
+.links-nav a::after {
+    content: "";
+    position: absolute;
+    left: 50%;
+    bottom: -2rem;
+    width: 0;
+    height: 3px;
+    background-color: #E71059;
+    transform: translateX(-50%);
+    transition: width 0.3s ease;
+}
+
+
+.links-nav a.active::after {
+    width: 100%;
+}
+
+.links-nav a.active {
+    color: #E71059;
+}
+
+.links-nav a:hover::after {
+    width: 100%;
+}
 
 .conteudo-pai {
     display: flex;
