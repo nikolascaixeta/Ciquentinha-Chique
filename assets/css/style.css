@@ -542,3 +542,147 @@ footer a {
     margin-right: 2rem;
     margin-top: 2rem;
 }
+
+@media screen and (max-width: 576px){
+    .div-titulo-localidade {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.div-vazia-escura {
+    border: 0.15rem solid #E71059;
+    width: 10%;
+    margin-left: 45%;
+}
+
+
+.titulo-localidade {
+    color: #E71059;
+    font-size: 40pt;
+    display: flex;
+    justify-content: center;
+}
+
+.local-exato {
+    display: flex;
+    justify-content: center;
+    flex-direction: column-reverse;
+    margin-top: 3rem;
+    margin-bottom: 8rem;
+}
+
+.div-img-local {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5rem;
+    background-color: #E71059;
+    width: 32rem;
+    height: 43rem;
+}
+
+.img-local {
+    display: flex;
+    justify-content: center;
+    width: 31rem;
+    height: auto;
+}
+
+.div-texto-local {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.div-img-maps {
+    width: 5rem;
+    height: auto;
+}
+
+.img-maps {
+    width: 5rem;
+    height: auto;
+}
+
+.texto-local {
+    font-size: 20pt;
+    color: #F9A4BB;
+}
+
+.texto-local p {
+    display: flex;
+    justify-content: center;
+}
+
+footer {
+    background-color: #E71059;
+    font-size: 15pt;
+    margin-top: 3rem;
+    margin-bottom: 1rem;
+}
+
+.logo-footer-div {
+    display: flex;
+    justify-content: center;
+}
+
+.div-central-logo-footer {
+    display: flex;
+    justify-content: center;
+}
+
+#logo-footer-image {
+    width: 13.75rem;
+    height: 13.75rem;
+    display: flex;
+    justify-content: center;
+}
+
+.div-vazia-clara {
+    border: 0.15rem solid #F9A4BB;
+    margin-left: 10rem;
+    margin-right: 10rem;
+    margin-bottom: 2rem;
+}
+
+.linksfooter {
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.linksfooter a {
+    margin-left: 0.625rem;
+}
+
+.Instagram img {
+    width: 2.19rem;
+    height: auto;
+}
+
+.Facebook img {
+    width: 2.19rem;
+    height: auto;
+}
+
+.Gmail img {
+    width: 2.19rem;
+    height: auto;
+}
+
+.feito-por {
+    display: flex;
+    justify-content: center;
+    color: #FFFFFF;
+}
+
+#footer{
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+}
+}
