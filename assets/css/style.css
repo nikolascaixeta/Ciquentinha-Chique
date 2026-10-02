@@ -222,20 +222,22 @@ nav {
     z-index: 100;
 }
 
-.conteinerPecas {
+.conteiner-Pecas {
     height: 100dvh;
     display: flex;
     align-items: center;
     flex-direction: column;
     margin: 2rem;
+    margin-right: 10rem;
+    margin-left: 10rem;
 }
 
-.inicioPecas {
+.inicio-Pecas {
     width: 100%;
     margin-bottom: 4rem;
 }
 
-#tituloPecas {
+#titulo-Pecas {
     font-size: 30pt;
     color: #E71059;
     display: flex;
@@ -254,7 +256,7 @@ nav {
 
 }
 
-.colunasPecas {
+.colunas-Pecas {
     display: flex;
     flex-direction: row;
 }
@@ -263,9 +265,8 @@ nav {
     display: flex;
     align-items: center;
     flex-direction: column;
-    padding: 0.5rem;
-
-
+    margin: 0.8rem;
+    width: 25rem;
 }
 
 .parte1Coluna {
@@ -286,11 +287,14 @@ nav {
 
 .txtPecas {
     text-align: center;
-    font-size: 22pt;
+    font-size: 2.8rem;
 }
 
 .subtituloPecas {
-    font-size: 30pt;
+    font-size: 3rem;
+    h2{
+        font-weight: 200;
+    }
 }
 
 .imagemColuna {
@@ -630,5 +634,73 @@ footer {
     display: flex;
     justify-content: center;
     flex-direction: column;
+}
+
+
+/*
+Seção 3
+*/
+
+
+.parte1-Sobre-Nos{
+    display: none;
+}
+.conteudo-sobre-Nos{
+    display: flex;
+    flex-direction: column;
+}
+.parte2-Sobre-Nos {
+    margin-top: 7rem;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: start;
+    margin:4rem;
+}
+.parte2-subtitulo {
+    color: #E71059;
+    font-size: 2rem;
+
+    h2 {
+        margin: 0;
+    }
+}
+
+.parte2-titulo {
+    color: #FFFFFF;
+    font-size: 1,5rem;
+
+    h1 {
+        font-weight: 400;
+        margin: 0;
+        margin-top: 0.5rem;
+        margin-bottom: 0.5rem;
+    }
+}
+
+.parte2-txt {
+    p {
+        color: #E71059;
+        font-size: 1.8rem;
+    }
+
+}
+
+.parte2-imagens-prateleira {
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    margin-top: 0.5rem;
+
+    img {
+        height: 14rem;
+        width: auto;
+    }
+}
+
+.imagem-prateleira {
+    margin-right: 2rem;
+    margin-top: 2rem;
 }
 }
