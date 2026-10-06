@@ -1,3 +1,9 @@
+:root{
+    --rosaClaro: #F9A4BB;
+    --rosaEscuro: #E71059;
+    --branco: #FFFFFF;
+}
+
 body {
     font-family: mulish;
     margin: 0px;
@@ -9,7 +15,7 @@ nav {
     position: fixed;
     top: 0;
     width: 100%;
-    background-color: #F9A4BB;
+    background-color: var(--rosaClaro);
     z-index: 999999;
 }
 
@@ -22,7 +28,7 @@ nav {
     display: flex;
     align-items: center;
     height: 6.25rem;
-    border-bottom: solid #FFFFFF 2px;
+    border-bottom: solid var(--branco) 2px;
     gap: 7.5rem;
 
 
@@ -53,7 +59,7 @@ nav {
 
     a {
        position: relative;
-    color: #FFFFFF;
+    color: var(--branco);
     font-size: 20pt;
     text-decoration: none;
     transition: color 0.3s;
@@ -61,7 +67,7 @@ nav {
     }
 
     a:hover {
-        color: #E71059;
+        color: var(--rosaEscuro);
     }
 
 }
@@ -73,7 +79,7 @@ nav {
     bottom: -2rem;
     width: 0;
     height: 3px;
-    background-color: #E71059;
+    background-color: var(--rosaEscuro);
     transform: translateX(-50%);
     transition: width 0.3s ease;
 }
@@ -84,7 +90,7 @@ nav {
 }
 
 .links-nav a.active {
-    color: #E71059;
+    color: var(--rosaEscuro);
 }
 
 .links-nav a:hover::after {
@@ -112,11 +118,11 @@ nav {
     button {
         a{
         text-decoration: none;
-        color: #FFFFFF;
+        color: var(--branco);
         transition: 0.5s;
     }
-        background-color: #E71059;
-        color: #FFFFFF;
+        background-color: var(--rosaEscuro);
+        color: var(--branco);
         font-size: 14pt;
         border-radius: 25px;
         width: 13rem;
@@ -130,10 +136,10 @@ nav {
 
     button:hover {
         a{
-            color: #E71059;
+            color: var(--rosaEscuro);
         }
-        color: #E71059;
-        background-color: #FFFFFF;
+        color: var(--rosaEscuro);
+        background-color: var(--branco);
     }
 
 }
@@ -164,7 +170,7 @@ nav {
 .background-img-mulher {
     position: absolute;
     z-index: 1;
-    background-color: #E71059;
+    background-color: var(--rosaEscuro);
     border-top-left-radius: 42%;
     border-top-right-radius: 42%;
     width: 36rem;
@@ -176,12 +182,12 @@ nav {
 
 
 #home {
-    background-color: #F9A4BB;
+    background-color: var(--rosaClaro);
     height: 100dvh;
 }
 
 #texto-home {
-    color: #FFFFFF;
+    color: var(--branco);
     word-spacing: 0.44rem;
     font-size: 22pt;
     position: relative;
@@ -197,17 +203,17 @@ nav {
     right: 12rem;
     width: 30%;
     height: 0.19rem;
-    background-color: #E71059;
+    background-color: var(--rosaEscuro);
 
 }
 
 #titulo1-home {
-    color: #FFFFFF;
+    color: var(--branco);
     font-size: 55pt;
 }
 
 #titulo2-home {
-    color: #E71059;
+    color: var(--rosaEscuro);
     font-size: 68pt;
     line-height: 1.56rem;
 }
@@ -239,7 +245,7 @@ nav {
 
 #titulo-Pecas {
     font-size: 30pt;
-    color: #E71059;
+    color: var(--rosaEscuro);
     display: flex;
     align-items: center;
     justify-content: center;
@@ -251,7 +257,7 @@ nav {
 }
 
 .borda-Pecas {
-    border-bottom: 0.2rem solid #E71059;
+    border-bottom: 0.2rem solid var(--rosaEscuro);
     width: 15%;
 
 }
@@ -281,7 +287,7 @@ nav {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    color: #E71059;
+    color: var(--rosaEscuro);
 
 }
 
@@ -298,7 +304,7 @@ nav {
 }
 
 .imagemColuna {
-    background-color: #E71059;
+    background-color: var(--rosaEscuro);
     width: 19rem;
     height: 20rem;
     border-radius: 100%;
@@ -308,7 +314,7 @@ nav {
 }
 
 .iconeColuna {
-    background-color: #F9A4BB;
+    background-color: var(--rosaClaro);
     border-radius: 100%;
     width: 4.475rem;
     height: 4.475rem;
@@ -326,14 +332,14 @@ nav {
 }
 
 footer {
-    background-color: #E71059;
+    background-color: var(--rosaEscuro);
     font-size: 18pt;
     margin-top: 3rem;
     margin-bottom: 1rem;
 }
 
 footer a {
-    color: #FFFFFF;
+    color: var(--branco);
 }
 
 .logo-footer-div {
@@ -354,7 +360,7 @@ footer a {
 }
 
 .div-vazia-clara {
-    border: 0.15rem solid #F9A4BB;
+    border: 0.15rem solid var(--rosaClaro);
     margin-left: 10rem;
     margin-right: 10rem;
     margin-bottom: 2rem;
@@ -390,7 +396,7 @@ footer a {
 .feito-por {
     display: flex;
     justify-content: center;
-    color: #FFFFFF;
+    color: var(--branco);
 }
 
 .div-titulo-localidade {
@@ -399,14 +405,14 @@ footer a {
 }
 
 .div-vazia-escura {
-    border: 0.15rem solid #E71059;
+    border: 0.15rem solid var(--rosaEscuro);
     width: 10%;
     margin-left: 45%;
 }
 
 
 .titulo-localidade {
-    color: #E71059;
+    color: var(--rosaEscuro);
     font-size: 55pt;
     display: flex;
     justify-content: center;
@@ -424,7 +430,7 @@ footer a {
     justify-content: center;
     align-items: center;
     border-radius: 5rem;
-    background-color: #E71059;
+    background-color: var(--rosaEscuro);
     width: 53.125rem;
     height: 28.75rem;
 }
@@ -453,7 +459,7 @@ footer a {
 
 .texto-local {
     font-size: 22pt;
-    color: #F9A4BB;
+    color: var(--rosaClaro);
 }
 
 .texto-local p {
@@ -462,7 +468,7 @@ footer a {
 }
 
 #sobre-Nos {
-    background-color: #F9A4BB;
+    background-color: var(--rosaClaro);
 }
 
 .conteudo-sobre-Nos {
@@ -502,7 +508,7 @@ footer a {
 }
 
 .parte2-subtitulo {
-    color: #E71059;
+    color: var(--rosaEscuro);
     font-size: 2rem;
 
     h2 {
@@ -511,7 +517,7 @@ footer a {
 }
 
 .parte2-titulo {
-    color: #FFFFFF;
+    color: var(--branco);
     font-size: 2.2rem;
 
     h1 {
@@ -524,7 +530,7 @@ footer a {
 
 .parte2-txt {
     p {
-        color: #E71059;
+        color: var(--rosaEscuro);
         font-size: 1.8rem;
     }
 
@@ -567,7 +573,7 @@ footer a {
     justify-content: center;
     align-items: center;
     border-radius: 5rem;
-    background-color: #E71059;
+    background-color: var(--rosaEscuro);
     width: 32rem;
     height: 43rem;
 }
@@ -589,14 +595,14 @@ footer a {
 footer {
     display: flex;
     justify-content: center;
-    background-color: #E71059;
+    background-color: var(--rosaEscuro);
     font-size: 15pt;
     margin-top: 3rem;
     margin-bottom: 1rem;
 }
 
 .div-vazia-clara {
-    border: 0.1rem solid #F9A4BB;
+    border: 0.1rem solid var(--rosaClaro);
     width: 12rem;
 }
 
@@ -627,7 +633,7 @@ footer {
     display: flex;
     justify-content: center;
     font-size: 0.5rem;
-    color: #FFFFFF;
+    color: var(--branco);
 }
 
 #footer{
@@ -659,7 +665,7 @@ Seção 3
     margin:4rem;
 }
 .parte2-subtitulo {
-    color: #E71059;
+    color: var(--rosaEscuro);
     font-size: 2rem;
 
     h2 {
@@ -668,7 +674,7 @@ Seção 3
 }
 
 .parte2-titulo {
-    color: #FFFFFF;
+    color: var(--branco);
     font-size: 1,5rem;
 
     h1 {
@@ -681,7 +687,7 @@ Seção 3
 
 .parte2-txt {
     p {
-        color: #E71059;
+        color: var(--rosaEscuro);
         font-size: 1.8rem;
     }
 
