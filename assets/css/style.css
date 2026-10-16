@@ -1,6 +1,7 @@
 * {
   margin: 0;
   padding: 0;
+ 
 }
 
 :root {
@@ -312,6 +313,7 @@ nav {
 
 .subtituloPecas {
   font-size: 2.2rem;
+  margin-bottom: 0.5rem;
   h2 {
     font-weight: 200;
   }
@@ -509,7 +511,7 @@ footer a {
   flex-direction: row;
   margin-top: 5rem;
   margin-bottom: 2rem;
-
+  margin-left: 16rem;
   margin-right: 3rem;
   min-height: 75dvh;
 }
@@ -523,7 +525,7 @@ footer a {
   margin-right: 5rem;
 
   img {
-    height: 36rem;
+    height: 37rem;
     width: auto;
   }
 }
@@ -594,7 +596,7 @@ footer a {
   margin-top: 0.5rem;
 
   img {
-    height: 7rem;
+    height: 9rem;
     width: auto;
   }
 }
@@ -748,7 +750,7 @@ Seção 2
 
 
   .conteiner-Pecas {
-    min-height: 100dvh;
+   
     display: flex;
 
     align-items: center;
@@ -780,7 +782,7 @@ Seção 2
     display: block;
   }
   .swiper {
-    width: 100vw;
+    width: 75dvh;
   }
 
   .swiper-slide {
@@ -809,21 +811,24 @@ Seção 2
 
   .coluna {
     display: flex;
-    justify-self: center;
+    justify-content: center;
     align-items: center;
-    flex-direction: column;
-    margin: 0.5rem;
-    width: 100%;
-    min-width: 0;
-    height: auto;
+   margin: 0;
   }
-
+  .alinhamento-Coluna{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
   .parte1Coluna {
     display: flex;
     align-self: center;
     align-items: center;
+    align-self: center;
     flex-direction: column;
-    margin-bottom: 1.875rem;
+    max-width: 240px;
+   
   }
 
   .parte2Coluna {
@@ -832,6 +837,7 @@ Seção 2
     justify-content: center;
     align-items: center;
     color: var(--rosaEscuro);
+    max-width: 240px;
   }
 
   .txtPecas {
@@ -893,7 +899,7 @@ Seção 3
     display: flex;
     flex-direction: column;
     justify-content: center;
-    text-align: start;
+   
   }
   .parte2-subtitulo {
     color: var(--rosaEscuro);
@@ -926,8 +932,10 @@ Seção 3
   .parte2-imagens-prateleira {
     display: flex;
     flex-direction: column;
-    justify-content: start;
+    justify-content: center;
+    align-items: center;
     margin-top: 0.5rem;
+    margin-bottom: 2rem;
 
     img {
       height: 8rem;
