@@ -466,10 +466,13 @@ footer a {
   background-color: var(--rosaEscuro);
   width: min(45vw, 43rem);
   height: 23rem;
+  padding: 1rem;
 }
 
-.img-local {
-  width: 94%;
+#iframe-maps{
+  width:43rem;
+  height:23rem;
+  border-radius: 5rem;
 }
 
 .div-texto-local {
@@ -642,13 +645,14 @@ footer a {
     width: 16rem;
     margin-left: auto;
     margin-right: auto;
-    padding: 0.5rem;
+    padding: 1rem;
   }
 
-  .img-local {
-    width: 16rem;
-    height: auto;
-  }
+#iframe-maps{
+  width:16rem;
+  height:20rem;
+  border-radius: 2rem;
+}
 
   .div-texto-local {
     display: flex;
