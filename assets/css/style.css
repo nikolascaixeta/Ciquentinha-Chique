@@ -739,7 +739,7 @@ footer a {
         width: 100%;
         display: flex;
         justify-content: center;
-        margin-top: 1rem;
+        margin-top: 4rem;
     }
 
     .filho-esquerda button {
@@ -1032,7 +1032,9 @@ Seção 2
 
   .swiper {
     width: 75dvh;
-  }
+    max-width: calc(100vw - 2rem);
+    box-sizing: border-box;
+}
 
   .swiper-slide {
     text-align: center;

@@ -1,9 +1,7 @@
  var swiper = new Swiper('.mySwiper', {
-        navigation: {
-          nextEl: '.swiper-button-next',
-          prevEl: '.swiper-button-prev',
-        },
-      });
+    slidesPerView: 1,
+    spaceBetween: 0
+});
 
 
 const botaoMenu = document.getElementById("menu-mobile");
