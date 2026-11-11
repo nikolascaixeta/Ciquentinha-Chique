@@ -1207,238 +1207,181 @@ Seção 3
     margin-top: 2rem;
   }
 }
-@media screen and (min-width: 769px) and (max-width: 1024px){
+@media screen and (min-width: 769px) and (max-width: 1440px) {
 
+  .conteudo-nav {
+    height: 6.25rem;
+    gap: 2.5rem;
+  }
 
-.conteudo-sobre-Nos {
-  display: flex;
-  flex-direction: row;
-    margin: 0;
-  min-height: 75dvh;
-}
+  .conteudo-esquerda-nav {
+    width: 25%;
+  }
 
-.parte1-Sobre-Nos {
-  display: flex;
-  align-items: end;
-  justify-content: center;
-   margin: 0;
-   margin-right: 2rem;
-   margin-left: 3rem;
+  .conteudo-direita-nav {
+    width: 75%;
+    height: 100%;
+    display: flex;
+    align-items: center; 
+    justify-content: center;
+  }
 
-  img {
+  .links-nav {
+    gap: 2.5rem;
+    height: 100%;
+    display: flex;
+    align-items: center; 
+  }
+
+  .links-nav a {
+    font-size: 15pt;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    position: relative;
+    padding-bottom: 0;
+    white-space: nowrap;
+  }
+
+  .links-nav a::after {
+    bottom: -3px;
+  }
+
+  #home {
+    height: 100dvh;
+    min-height: 650px;
+  }
+
+  .conteudo-pai {
+    gap: 1.5rem;
+  }
+
+  .filho-esquerda {
+    width: 50%;
+    padding-top: 4rem;
+    gap: 30px;
+  }
+
+  #titulo1-home {
+    font-size: 42pt;
+  }
+
+  #titulo2-home {
+    font-size: 52pt;
+    line-height: 1.2rem;
+  }
+
+  #texto-home {
+    font-size: 16pt;
+    word-spacing: 0.2rem;
+  }
+
+  #texto-home::after {
+    right: 2rem;
+    width: 35%;
+  }
+
+  .filho-direita {
+    width: 45%;
+  }
+
+  .background-image-section1 {
+    width: 30rem;
     height: 30rem;
-    width: auto;
+    top: 4rem;
   }
-}
 
-.Imagem-De-Fundo-Secao-3 {
-
-  background-image: url(../img/fundo-section3.svg);
-  background-position: center bottom;
-  background-repeat: no-repeat;
-  background-size: cover;
-  width: 100%;
-  max-width: 400px;
-  height: 500px;
-
-  border-radius: 200px 200px 0 0;
-  margin: 0 auto;
-
-  position: relative;
-  overflow: hidden;
-
-  display: flex;
-  justify-content: center;
-  align-items: flex-end;
-}
-
-.Imagem-De-Fundo-Secao-3 img {
-  max-height: 95%;
-  object-fit: contain;
-}
-
-.parte2-Sobre-Nos {
-  margin-top: 5rem;
-  width: 45%;
-}
-
-.parte2-subtitulo {
-  color: var(--rosaEscuro);
-  font-size: 1rem;
-
-  h2 {
-    margin: 0;
+  .background-img-mulher {
+    width: 26rem;
+    height: 34rem;
+    top: 0.5rem;
   }
-}
 
-.parte2-titulo {
-  color: var(--branco);
-  font-size: 1.5rem;
-
-  h1 {
-    font-weight: 400;
-    margin: 0;
-    margin-top: 0.5rem;
-    margin-bottom: 0.5rem;
+  #imagem-section1 {
+    height: 42rem;
+    top: -8rem;
+    right: 2rem;
   }
-}
 
-.parte2-txt {
-  p {
-    color: var(--rosaEscuro);
-    font-size: 1.5rem;
+  .sem-swiper {
+    display: block;
+    width: 100%;
   }
-}
 
-.parte2-imagens-prateleira {
-  display: flex;
-  flex-direction: row;
-  justify-content: start;
-  margin-top: 0.5rem;
-
-  img {
-    height: 9rem;
-    width: auto;
+  .mobile-swiper {
+    display: none;
   }
-}
 
-.imagem-prateleira {
-  margin-right: 2rem;
-  margin-top: 2rem;
-}
- 
-/*
-Seção 2
-*/
-
-.conteiner-Pecas {
-  display: flex;
-
-  align-items: center;
-  flex-direction: column;
-  margin: 1rem 2rem;
-}
-
-.inicio-Pecas {
-  width: 100%;
-  margin-bottom: 2rem;
-}
-
-#titulo-Pecas {
-  font-size: 24pt;
-  color: var(--rosaEscuro);
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  flex-direction: column;
-
-  h1 {
-    margin: 1rem;
+  .conteiner-Pecas {
+    margin: 1rem 1rem;
   }
-}
 
-.mobile-swiper {
-  display: none;
-}
-
-.swiper {
-  width: 100dvh;
-}
-
-.swiper-slide {
-  text-align: center;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  align-self: center;
-  justify-self: center;
-}
-
-.alinhamento-swiper {
-  display: flex;
-  align-items: flex-start;
-}
-
-.borda-Pecas {
-  border-bottom: 0.2rem solid var(--rosaEscuro);
-  width: 15%;
-}
-
-.colunas-Pecas {
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-
-  gap: 10px;
-
-  width: 100%;
-}
-
-.coluna {
-  display: flex;
-  justify-self: center;
-  align-items: center;
-  flex-direction: column;
-  margin: 0.5rem;
-  width: calc(25% - 1rem);
-  max-width: 2rem;
-  height: auto;
-}
-
-.parte1Coluna {
-  display: flex;
-  align-self: center;
-  align-items: center;
-  flex-direction: column;
-  margin-bottom: 1.875rem;
-}
-
-.parte2Coluna {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  color: var(--rosaEscuro);
-}
-
-.txtPecas {
-  text-align: center;
-  font-size: 1rem;
-}
-
-.subtituloPecas {
-  font-size: 1.5rem;
-  margin-bottom: 0.5rem;
-
-  h2 {
-    font-weight: 200;
+  .colunas-Pecas {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 10px;
+    width: 100%;
   }
-}
 
-.imagemColuna {
-  background-color: var(--rosaEscuro);
-  height: 12rem;
-  width: 12rem;
-  border-radius: 100%;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-
-.iconeColuna {
-  background-color: var(--rosaClaro);
-  border-radius: 100%;
-  width: 3rem;
-  height: 3rem;
-  align-self: stretch;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  position: absolute;
-
-  img {
-    width: 2rem;
-    height: 2rem;
+  .coluna {
+    width: calc(25% - 10px);
+    max-width: 100%;
+    margin: 0.5rem 0;
   }
-}
-}
+
+  .parte1Coluna {
+    margin-bottom: 1.2rem;
+  }
+
+  .imagemColuna {
+    height: 11rem;
+    width: 11rem;
+  }
+
+  .iconeColuna {
+    width: 3.5rem;
+    height: 3.5rem;
+  }
+
+  .iconeColuna img {
+    width: 2.2rem;
+    height: 2.2rem;
+  }
+
+  .subtituloPecas {
+    font-size: 1.6rem;
+  }
+
+  .txtPecas {
+    font-size: 1.1rem;
+  }
+
+  .conteudo-sobre-Nos {
+    display: flex;
+    flex-direction: row;
+    margin-left: 2rem;
+    margin-right: 2rem;
+    margin-top: 4rem;
+    margin-bottom: 2rem;
+    min-height: auto;
+  }
+
+  .parte1-Sobre-Nos {
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+    margin-left: 1rem;
+    margin-right: 2rem;
+    width: 40%;
+  }
+
+  .Imagem-De-Fundo-Secao-3 {
+    max-width: 320px;
+    height: 420px;
+  }
+
+  .parte2-Sobre-Nos {
+    margin-top: 2rem;
+    width: 58%;
+  }
