@@ -214,10 +214,9 @@ nav {
 
 #imagem-section1 {
   position: absolute;
-  height: 55.625rem;
+  height: 50rem;
   width: auto;
-  top: -10.5rem;
-  right: 5rem;
+  
   z-index: 100;
 }
 
@@ -335,7 +334,19 @@ nav {
   justify-content: center;
   align-items: center;
 }
-
+#mulher-section2{
+  width: 10rem;
+}
+#homem-section2{
+  width: 11rem;
+}
+#calca-section2{
+  align-self: flex-end;
+  width: 13rem;
+}
+#saia-section2{
+  width: 10rem;
+}
 .iconeColuna {
   background-color: var(--rosaClaro);
   border-radius: 100%;
@@ -604,16 +615,17 @@ footer a {
   flex-direction: row;
   justify-content: start;
   margin-top: 0.5rem;
-
-  img {
-    height: 9rem;
-    width: auto;
-  }
 }
 
 .imagem-prateleira {
   margin-right: 2rem;
   margin-top: 2rem;
+  margin-bottom: 0.5rem;
+  
+   img{
+    width: 10rem;
+   border-radius: 10%;
+   }
 }
 
 .menu-mobile {
