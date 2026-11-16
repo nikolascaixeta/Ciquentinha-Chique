@@ -1022,7 +1022,7 @@ Seção 2
   }
 
   #titulo-Pecas {
-    font-size: 20pt;
+    font-size: 15pt;
     color: var(--rosaEscuro);
     display: flex;
     align-items: center;
@@ -1146,7 +1146,20 @@ Seção 2
       height: 3.125rem;
     }
   }
-
+  #mulher-section2{
+  width: 10rem;
+}
+#homem-section2{
+  width: 11rem;
+  align-self: end;
+}
+#calca-section2{
+  align-self: end;
+  width: 12.5rem;
+}
+#saia-section2{
+  width: 10rem;
+}
   /*
 Seção 3
 */
@@ -1202,7 +1215,7 @@ Seção 3
 
   .parte2-imagens-prateleira {
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     justify-content: center;
     align-items: center;
     margin-top: 0.5rem;
@@ -1217,6 +1230,11 @@ Seção 3
   .imagem-prateleira {
     margin-right: 2rem;
     margin-top: 2rem;
+     img{
+    width: 7rem;
+    height: auto;
+   border-radius: 10%;
+   }
   }
 }
 @media screen and (min-width: 769px) and (max-width: 1440px) {
@@ -1397,4 +1415,57 @@ Seção 3
     margin-top: 2rem;
     width: 58%;
   }
+
+    .imagem-prateleira {
+    margin-right: 2rem;
+    margin-top: 2rem;
+     img{
+    width: 7rem;
+    height: auto;
+   border-radius: 10%;
+   }
+  }
+  .parte2-imagens-prateleira{
+    
+    display: flex;
+    flex-direction: row;
+    margin-top: 0.5rem;
+  }
+  .linha1{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+  }
+  .linha2{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+  }
+    #mulher-section2{
+  width: 7rem;
+}
+#homem-section2{
+  width: 8rem;
+  align-self: end;
+}
+#calca-section2{
+  align-self: end;
+  width: 9rem;
+}
+#saia-section2{
+  width: 7rem;
+}
+#imagem-section1 {
+  position: absolute;
+  display: flex;
+  align-self: center;
+  justify-self: center;
+  height: 38rem;
+  width: auto;
+  top: 0rem;
+  right: 2rem;
+  z-index: 100;
+}
 }
