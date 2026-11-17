@@ -628,6 +628,15 @@ footer a {
    }
 }
 
+.linha1{
+  display:flex;
+  flex-direction: row;
+}
+.linha2{
+  display:flex;
+  flex-direction: row;
+}
+
 .menu-mobile {
   display: none;
 }
