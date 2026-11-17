@@ -1468,4 +1468,70 @@ Seção 3
   right: 2rem;
   z-index: 100;
 }
+
+  .linksfooter {
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    display: flex;
+    justify-content: center;
+  }
+
+  .linksfooter a {
+    font-size: 14pt;
+  }
+
+  .Instagram {
+    display: flex;
+    align-items: center;
+    margin-left: 3.2rem;
+    gap: 0;
+  }
+
+  .Facebook {
+    display: flex;
+    align-items: center;
+    margin-left: 3.2rem;
+    gap: 0;
+  }
+
+  .Gmail {
+    display: flex;
+    align-items: center;
+    margin-left: 3.2rem;
+    gap: 0;
+  }
+
+  .Instagram img {
+    width: 2rem;
+    height: auto;
+  }
+
+  .Facebook img {
+    width: 2rem;
+    height: auto;
+  }
+
+  .Gmail img {
+    width: 2rem;
+    height: auto;
+  }
+
+  .feito-por {
+    display: flex;
+    justify-content: center;
+    font-size: 9pt;
+    color: var(--branco);
+  }
+
+  #footer {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin-bottom: 0;
+  }
+
+  .footer-conteudo {
+    display: flex;
+    flex-direction: column;
+  }
 }
