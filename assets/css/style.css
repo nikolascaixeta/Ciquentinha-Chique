@@ -1221,7 +1221,14 @@ Seção 3
       font-size: 1rem;
     }
   }
-
+  .linha1{
+  display:flex;
+  flex-direction: column;
+}
+.linha2{
+  display:flex;
+  flex-direction: column;
+}
   .parte2-imagens-prateleira {
     display: flex;
     flex-direction: row;
